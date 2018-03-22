@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/VighteRNativeSensors/react-native-sensors/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d9c92e8924aa3781fb38c70ff8b4d62b0343a5a">
+        <dex dex="/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/pre-dexed/debug/VighteRNativeSensors-react-native-sensors-unspecified_50bac70819fb9d24a410e5bb8ca7b8fd17b99542.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
