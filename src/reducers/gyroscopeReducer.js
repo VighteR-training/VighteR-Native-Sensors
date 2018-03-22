@@ -1,4 +1,4 @@
-import { GENERATE_GYROSCOPE } from '../actionTypes';
+import { GENERATE_GYROSCOPE, PUSH_GYROSCOPE_ARRAY } from '../actionTypes';
 
 const gyroscopeReducerInit = {
 	x: 'unknown',
@@ -12,5 +12,14 @@ export const gyroscopeReducer = (state = gyroscopeReducerInit, action) => {
 			return {...action.payload}
 		default:
 			return {...state}
+	}
+}
+
+export const gyroscopeArrayReducer = (state = [], action) => {
+	switch (action.type) {
+		case PUSH_GYROSCOPE_ARRAY:
+			return [...state, action.payload]
+		default:
+			return [...state]
 	}
 }

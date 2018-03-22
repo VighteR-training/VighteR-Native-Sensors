@@ -6,11 +6,13 @@ import {
 } from 'redux';
 
 import {
-  gyroscopeReducer
+  gyroscopeReducer,
+  gyroscopeArrayReducer
 } from '../reducers/gyroscopeReducer';
 
 const store = combineReducers({
-  gyroscopeReducer
+  gyroscopeReducer,
+  gyroscopeArrayReducer
 });
 
 export default createStore(store, applyMiddleware(thunk))
