@@ -74,15 +74,15 @@ class MainController extends Component {
     db.ref(this.state.email.split('@')[0]).child('logs').set(obj)
     .then(() => {
       this.props.resetGyroscopeArray()
-      this.changeStatus()
+      this.changeStatus(obj)
     })
     .catch(err => {
       console.log(err)
     })
   }
 
-  changeStatus() {
-    db.ref(this.state.email.split('@')[0]).set({ready: false});
+  changeStatus(obj) {
+    db.ref(this.state.email.split('@')[0]).set({...obj, ready: false});
   }
 
   getSignal(callback){
