@@ -4,6 +4,14 @@
         "source": "/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "/home/aang/Documents/hacktiv8/Phase3/finalProject/VighteR-Native-Sensors/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/aang/Documents/hacktiv8/Phase3/finalProject/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/aang/Documents/hacktiv8/Phase3/finalProject/VighteR-Native-Sensors/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/aang/Documents/hacktiv8/Phase3/finalProject/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
         "source": "/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }

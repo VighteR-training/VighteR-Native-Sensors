@@ -71,7 +71,7 @@ class MainController extends Component {
 
   saveHistoryIntoFirebase(obj) {
 
-    db.ref(this.state.email.split('@')[0]).child('logs').set(obj)
+    db.ref(this.state.email.split('@')[0]).set(obj)
     .then(() => {
       this.props.resetGyroscopeArray()
       this.changeStatus(obj)
@@ -93,10 +93,10 @@ class MainController extends Component {
         setTimeout(()=>{
           this.setState(
             {
-              temp: [...this.state.temp, {power: this.state.magnitude, gyroscope: this.state.chosen, type: 'jab'}]
+              temp: [...this.state.temp, {power: this.state.magnitude, gyroscope: this.state.chosen, type: data.type}]
             }
           )          
-          this.saveHistoryIntoFirebase({power: this.state.magnitude, gyroscope: this.state.chosen, type: 'jab'})
+          this.saveHistoryIntoFirebase({power: this.state.magnitude, gyroscope: this.state.chosen, type: data.type})
           console.log(this.state.chosen, this.state.magnitude);
           console.log(this.state.temp, 'ini temp');
         }, 3000)
