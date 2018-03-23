@@ -97,8 +97,6 @@ class MainController extends Component {
             }
           )          
           this.saveHistoryIntoFirebase({power: this.state.magnitude, gyroscope: this.state.chosen, type: data.type})
-          console.log(this.state.chosen, this.state.magnitude);
-          console.log(this.state.temp, 'ini temp');
         }, 3000)
       }
     })
