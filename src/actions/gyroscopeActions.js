@@ -1,4 +1,4 @@
-import { GENERATE_GYROSCOPE, PUSH_GYROSCOPE_ARRAY } from '../actionTypes';
+import { GENERATE_GYROSCOPE, PUSH_GYROSCOPE_ARRAY, RESET_GYROSCOPE_ARRAY } from '../actionTypes';
 
 const generateGyroscope = (payload) => {
   return {
@@ -24,4 +24,16 @@ export const assignGyroscopeArray = (gyroscope) => {
   return (dispatch) => {
     dispatch(pushGyroscopeArray(gyroscope));
   }
+}
+
+const reset_gyroscope_array = () => {
+	return {
+		type: RESET_GYROSCOPE_ARRAY
+	}
+}
+
+export const resetGyroscopeArray = () => {
+	return (dispatch) => {
+		dispatch(reset_gyroscope_array());
+	}
 }
