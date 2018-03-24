@@ -2,5 +2,9 @@
     {
         "merged": "/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/home/jennndol/Desktop/Hacktiv8/VR/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/aang/Documents/hacktiv8/Phase3/finalProject/VighteR-Native-Sensors/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/aang/Documents/hacktiv8/Phase3/finalProject/VighteR-Native-Sensors/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
     }
 ]
